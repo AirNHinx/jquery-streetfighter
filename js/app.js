@@ -8,21 +8,21 @@ $(document).ready(function() {
 		$(".ryu-still").show();
 	})
 	.mousedown(function() {
-		console.log("mousedown");
 		// play hadouken sound
 		$(".ryu-ready").hide();
 		$(".ryu-throwing").show();
 		$(".hadouken").show();
-		.animate(
-			{"left":"300px"},
-			500,
-			function() {
-				$(this).hide();
-				$(this).css("left","-210");
-		});
+		$(".hadouken'").finish().show()
+  			.animate(
+    		{"left": "300px"},
+    		500,
+    		function() {
+      		$(this).hide();
+      		$(this).css("left", "-212px");
+    }
+  );
 	})
 	.mouseup(function() {
-		console.log("mouseup")
 		$(".ryu-throwing").hide();
 		$(".ryu-ready").show();
 	});
