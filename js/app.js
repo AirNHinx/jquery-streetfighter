@@ -19,8 +19,7 @@ $(document).ready(function() {
 			function() {
 				$(this).hide();
 				$(this).css("left","-210");
-		}
-	);
+		});
 	})
 	.mouseup(function() {
 		console.log("mouseup")
