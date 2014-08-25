@@ -12,7 +12,7 @@ $(document).ready(function() {
 		$(".ryu-ready").hide();
 		$(".ryu-throwing").show();
 		$(".hadouken").show();
-		$(".hadouken'").finish().show()
+		//$(".hadouken'").finish().show()
   			.animate(
     		{"left":"300px"},
     		500,
