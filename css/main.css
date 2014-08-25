@@ -1,0 +1,11 @@
+body {
+	background-color:black
+}
+
+.main {
+	background-color:white;
+	margin-top:110px;
+	padding-left: 100px;
+	min-width:1200px;
+	height:500px;
+}
