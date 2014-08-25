@@ -11,8 +11,8 @@ $(document).ready(function() {
 		// play hadouken sound
 		$(".ryu-ready").hide();
 		$(".ryu-throwing").show();
-		$(".hadouken'").show().finish()
-  			.animate(
+		$(".hadouken").show();
+		$(".hadouken'").finish().animate(
     		{"left":"300px"},
     		500, 
     		function() {
