@@ -24,15 +24,15 @@ body {
 }
 
 .ryu-ready {
-	background-image:url("images/ryu-ready.gif");
+	background-image:url("../images/ryu-ready.gif");
 }
 
 .ryu-still {
-  background-image: url("images/ryu-still.png");
+  background-image: url("../images/ryu-still.png");
 }
 
 .ryu-throwing {
-  background-image: url("images/ryu-throwing.png");
+  background-image: url("../images/ryu-throwing.png");
 }
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
@@ -40,7 +40,7 @@ body {
 }
 
 .hadouken {
-	background-image: url("images/hadouken.gif");
+	background-image: url("../images/hadouken.gif");
 	width: 156px;
 	height: 90px;
 	display: none;
