@@ -10,7 +10,10 @@ $(document).ready(function() {
 	.mousedown(function() {
 		console.log("mousedown");
 		// play hadouken sound
-		// show hadouken and animate it to the right of the screen
+		$(".ryu-ready").hide();
+		$(".ryu-throwing").show();
+		$(".hadouken").show();
+		// animate it to the right of the screen
 	})
 	.mouseup(function() {
 		console.log("mouseup")
