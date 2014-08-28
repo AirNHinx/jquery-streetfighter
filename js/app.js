@@ -26,7 +26,7 @@ $(document).ready(function() {
 		$(".ryu-ready").show();
 	});
 	$(document).on("keydown", function(event) {
-		$(this).html(event.type + ":" + event.which);
+		$(".main").html(event.type + ":" + event.which);
     });
 });
 
