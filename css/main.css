@@ -49,3 +49,8 @@ body {
   	left: -210px;
 	float:left;
 }
+
+.ryu-cool {
+	background-image: url("../images/ryu-cool.png");
+}
+

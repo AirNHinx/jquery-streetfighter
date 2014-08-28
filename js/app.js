@@ -27,6 +27,10 @@ $(document).ready(function() {
 	});
 	$(document).on("keydown", function(event) {
 		if(event.which == 88) {
+			event.preventDefault();
+			}
+			xTriggered++;
+			var msg = ".main" + xTriggered + "1";	
 			$(".ryu-ready").hide();
 			$(".ryu-cool").show();
 });
