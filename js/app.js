@@ -25,6 +25,9 @@ $(document).ready(function() {
 		$(".ryu-throwing").hide();
 		$(".ryu-ready").show();
 	});
+	$(document).on("keydown", function(event) {
+		$(this).html(event.type + ":" + event.which);
+    });
 });
 
 function playHadouken () {
@@ -32,3 +35,4 @@ function playHadouken () {
   $("#hadouken-sound")[0].load();
   $("#hadouken-sound")[0].play();
 }
+
