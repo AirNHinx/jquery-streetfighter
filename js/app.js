@@ -25,7 +25,7 @@ $(document).ready(function() {
 		$(".ryu-throwing").hide();
 		$(".ryu-ready").show();
 	});
-	$(document).on("keydown", function(event) {
+	.on("keydown", function(event) {
 		if(event.which == 88) {
 			event.preventDefault();
 			}
