@@ -26,8 +26,10 @@ $(document).ready(function() {
 		$(".ryu-ready").show();
 	});
 	$(document).on("keydown", function(event) {
-		$(".main").html(event.type + ":" + event.which);
-    });
+		if(event.which == 88) {
+			event.preventDefault();
+			$(".ryu-ready").hide();
+			$(".ryu-cool").show();
 });
 
 function playHadouken () {
