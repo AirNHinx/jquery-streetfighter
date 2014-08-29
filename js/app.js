@@ -10,7 +10,7 @@ $(document).ready(function() {
 	.mousedown(function() {
   		playHadouken();    
   		$(".ryu-ready").hide();
-  		$(".ryu-throwing").show();
+  		$(".ryu-cool").show();
   		$(".hadouken").finish().show()
   		.animate(
     		{"left": '300px'},
