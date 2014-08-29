@@ -35,6 +35,7 @@ $(document).ready(function() {
   	});
   	$(document).keyup(function(event) {
     	if (event.which == 88) {
+    		$("#rocky-sound")[0].pause();
       		$(".ryu-cool").hide();
       		$(".ryu-still").show();
     	}
