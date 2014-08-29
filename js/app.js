@@ -2,11 +2,13 @@ $(document).ready(function() {
 	$(".ryu").mouseenter(function() {
 		$(".ryu-still").hide();
 		$(".ryu-cool").hide();
+		$(".hadouken").hide();
 		$(".ryu-ready").show();
 	})
 	.mouseleave(function() {
 		$(".ryu-ready").hide();
 		$(".ryu-cool").hide();
+		$(".hadouken").hide();
 		$(".ryu-still").show();
 	})
 	.mousedown(function() {
@@ -36,6 +38,7 @@ $(document).ready(function() {
     		$(".ryu-ready").hide();
      		$(".ryu-still").hide();
      		$(".ryu-throwing").hide();
+     		$(".hadouken").hide();
      		$(".ryu-cool").show();
     	}   
   	});
@@ -43,7 +46,9 @@ $(document).ready(function() {
     	if (event.which == 88) {
     		$("#rocky-sound")[0].pause();
       		$(".ryu-cool").hide();
+      		$(".ryu-ready").hide();
       		$(".ryu-throwing").hide();
+      		$(".hadouken").hide();
       		$(".ryu-still").show();
     	}
  	});	
