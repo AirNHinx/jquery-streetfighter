@@ -25,14 +25,19 @@ $(document).ready(function() {
 		$(".ryu-throwing").hide();
 		$(".ryu-ready").show();
 	});
-	.on("keydown", function(event) {
-		if(event.which == 88) {
-			event.preventDefault();
-			}
-			xTriggered++;
-			var msg = ".main" + xTriggered + "1";	
-			$(".ryu-ready").hide();
-			$(".ryu-cool").show();
+	$(document).keydown(function(event) {
+		if (event.which == 88) {
+    		$(".ryu-ready").hide();
+     		$(".ryu-still").hide();
+     		$(".ryu-cool").show();
+    	}   
+  	});
+  	$(document).keyup(function(event) {
+    	if (event.which == 88) {
+      		$('.ryu-cool').hide();
+      		$('.ryu-still').show();
+    	}
+ 	});	
 });
 
 function playHadouken () {
