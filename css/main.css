@@ -55,4 +55,9 @@ body {
 	float:left;
 }
 
+.interactive-info {
+	display:inline-block;
+	position:relative;
+	right:0;
+}
 
