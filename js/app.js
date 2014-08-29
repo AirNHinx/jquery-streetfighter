@@ -30,6 +30,7 @@ $(document).ready(function() {
 			playRocky();   
     		$(".ryu-ready").hide();
      		$(".ryu-still").hide();
+     		$(".ryu-throwing").hide();
      		$(".ryu-cool").show();
     	}   
   	});
@@ -37,6 +38,7 @@ $(document).ready(function() {
     	if (event.which == 88) {
     		$("#rocky-sound")[0].pause();
       		$(".ryu-cool").hide();
+      		$(".ryu-throwing").hide();
       		$(".ryu-still").show();
     	}
  	});	
