@@ -27,6 +27,7 @@ $(document).ready(function() {
 	});
 	$(document).keydown(function(event) {
 		if (event.which == 88) {
+			playRocky();   
     		$(".ryu-ready").hide();
      		$(".ryu-still").hide();
      		$(".ryu-cool").show();
@@ -45,3 +46,10 @@ function playHadouken () {
   $("#hadouken-sound")[0].load();
   $("#hadouken-sound")[0].play();
 }
+
+function playRocky () {
+  $("#rocky-sound")[0].volume = 0.4;
+  $("#rocky-sound")[0].load();
+  $("#rocky-sound")[0].play();
+}
+
