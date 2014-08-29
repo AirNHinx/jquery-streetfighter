@@ -56,8 +56,12 @@ body {
 }
 
 .interactive-info {
-	display:inline-block;
 	position:relative;
-	right:0;
+	top: 170px;
+}
+
+.instructions {
+	font-family:"candara", "papyrus", comical;
+	font-size: 22px;
 }
 
