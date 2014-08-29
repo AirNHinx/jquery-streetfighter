@@ -64,6 +64,9 @@ body {
 	font-family: "papyrus", comical;
 	font-size: 50px;
 	color:red;
+	min-width: 400px;
+	position: absolute;
+	right: 180px;
 }
 
 li {
