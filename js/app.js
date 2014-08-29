@@ -43,14 +43,18 @@ $(document).ready(function() {
 });
 
 function playHadouken () {
-  $("#hadouken-sound")[0].volume = 0.4;
-  $("#hadouken-sound")[0].load();
-  $("#hadouken-sound")[0].play();
+ 	$("#hadouken-sound")[0].volume = 0.4;
+ 	$("#hadouken-sound")[0].load();
+ 	$("#hadouken-sound")[0].play();
 }
 
-function playRocky () {
-  $("#rocky-sound")[0].volume = 0.4;
-  $("#rocky-sound")[0].load();
-  $("#rocky-sound")[0].play();
+var rockySound = false;
+	function playRocky () {
+		rockySound= !rockySound;
+		if(rockySound) {
+  		$("#rocky-sound")[0].volume = 0.4;
+  		$("#rocky-sound")[0].pause();
+  		$("#rocky-sound")[0].play();
+  	}
 }
 
