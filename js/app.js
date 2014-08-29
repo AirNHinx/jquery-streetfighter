@@ -34,8 +34,8 @@ $(document).ready(function() {
   	});
   	$(document).keyup(function(event) {
     	if (event.which == 88) {
-      		$('.ryu-cool').hide();
-      		$('.ryu-still').show();
+      		$(".ryu-cool").hide();
+      		$(".ryu-still").show();
     	}
  	});	
 });
