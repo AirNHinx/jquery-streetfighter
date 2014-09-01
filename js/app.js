@@ -33,13 +33,13 @@ $(document).ready(function() {
 		$(".ryu-ready").show();
 	});
 	$(document).keydown(function(event) {
-		if (event.which == 88) {
-			playRocky();   
+		if (event.which == 88) {  
     		$(".ryu-ready").hide();
      		$(".ryu-still").hide();
      		$(".ryu-throwing").hide();
      		$(".hadouken").hide();
      		$(".ryu-cool").show();
+        playRocky(); 
     	}   
   	});
   	$(document).keyup(function(event) {
